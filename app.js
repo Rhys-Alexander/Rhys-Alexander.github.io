@@ -1,3 +1,7 @@
+function getMeme() {
+  return "https://youtu.be/BrF3KV7K8NM";
+}
+
 function trigger(key, event) {
   let xhr = new XMLHttpRequest();
 
@@ -14,10 +18,13 @@ function trigger(key, event) {
 }
 
 function timer() {
-  output.innerHTML = output.innerHTML - 1;
+  if (output.innerHTML > 0) {
+    output.innerHTML -= 1;
+  } else {
+    window.location.replace(getMeme());
+  }
 }
 
 const output = document.querySelector(".output");
-
 trigger("Y97kwnMcn-AuvViUSwwYS", "visited");
 setInterval(timer, 1000);
