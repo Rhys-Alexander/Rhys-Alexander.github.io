@@ -5,15 +5,15 @@
   color: white;
 }
 footer {
-  width: 100%;
+  /* width: 100%; */
   position: fixed;
   bottom: 0;
   padding: 8px;
-  text-align: center;
 }
 body {
-  text-align: left;
   background-color: red;
+  max-width: 800px;
+  margin: auto;
 }
 body h1 {
   font-size: 100px;
@@ -27,8 +27,11 @@ body h2 {
 .timer {
   padding-top: 50px;
   font-size: 40px;
+  text-align: center;
+  margin: 0px;
 }
-.main {
-  max-width: 800px;
-  margin: auto;
+.output {
+  font-size: 80px;
+  text-align: center;
+  margin-top: 20px;
 }
