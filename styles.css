@@ -7,11 +7,12 @@
 footer {
   position: fixed;
   bottom: 0;
-  padding: 8px;
+  padding-bottom: 8px;
 }
 body {
   background-color: red;
   max-width: 800px;
+  padding-inline: 20px;
   margin: auto;
 }
 body h1 {
