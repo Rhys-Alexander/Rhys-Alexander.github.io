@@ -1,5 +1,12 @@
-function getMeme() {
-  return "https://youtu.be/BrF3KV7K8NM";
+function getMeme(last = false) {
+  const memes = [
+    "https://youtu.be/BrF3KV7K8NM",
+    "https://youtu.be/Y-Q8HCS1CvI",
+    "https://youtu.be/nCqucxRNSNI",
+  ];
+  return last
+    ? memes.slice(-1)
+    : memes[Math.floor(Math.random() * memes.length)];
 }
 
 function trigger(key, event) {
