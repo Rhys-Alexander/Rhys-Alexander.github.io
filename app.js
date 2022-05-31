@@ -15,6 +15,7 @@ function getMeme(last = false) {
     "https://youtu.be/-LTtripsg5U",
     "https://youtu.be/tjQiSsmiToE",
     "https://youtu.be/Y1ICyf-ETts",
+    "https://youtu.be/YCeQLeQiRP4"
   ];
   return last
     ? memes.slice(-1)
