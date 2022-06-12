@@ -41,7 +41,7 @@ function timer() {
   if (output.innerHTML > 0) {
     output.innerHTML -= 1;
   } else {
-    window.location.href(getMeme());
+    window.location.href = getMeme();
   }
 }
 
