@@ -1,4 +1,4 @@
-# QR-Merch
+# QR-Joke
 
 I wear a QR code on some of my apparel which takes you to this site for a laugh.
 
