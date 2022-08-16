@@ -122,8 +122,9 @@ p {
   margin-top: 0.4rem;
   text-shadow: 1px 1px 15px rgb(251, 0, 255);
 }
-#message {
-  margin-top: 5rem;
+img {
+  margin: 1.5rem;
+  border-radius: 20px;
 }
 #love {
   text-align: center;
