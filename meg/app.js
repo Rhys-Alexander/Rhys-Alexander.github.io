@@ -39,6 +39,7 @@ function get_compliment() {
     "You've shown me feelings I didn't no I had.",
     "You're absolutely stunning",
     "Bunda :)",
+    "The way you look at me in a suit ;)",
   ];
   while (line < compliments.length) {
     const compliment = line;
