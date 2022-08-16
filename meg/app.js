@@ -36,7 +36,7 @@ function get_compliment() {
     "Kissing your lips",
     "You're so caring and kind",
     "The more time I spend with you, the more I love you",
-    "You've shown me feelings I didn't no I had.",
+    "You've shown me feelings I didn't know I had.",
     "You're absolutely stunning",
     "Bunda :)",
     "The way you look at me in a suit ;)",
