@@ -1,0 +1,115 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 8px;
+    text-align: center;
+}
+footer a {
+    color: white;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    25% {
+        background-color: #66bf39
+    }
+
+    50% {
+        background-color: #eb670f
+    }
+
+    75% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #914cbf
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 10s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    text-align: center;
+    color: white;
+}
+
+header h1{
+    font-size: 50px;
+    margin: 30px;
+    margin-top: 80px;
+
+}
+header p{
+    font-size: 20px;
+    margin: 30px;
+    margin-bottom: 50px;
+}
+
+.button {
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    -webkit-animation: bgcolor 10s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    border-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button:hover {
+    box-shadow: 0px 0px 15px;
+}
+.button:active {
+    box-shadow: 0px 0px 30px;
+    transition: 0.1s;
+}
+
+@keyframes tcolor {
+    0% {
+        color: #45a3e5
+    }
+
+    25% {
+        color: #66bf39
+    }
+
+    50% {
+        color: #eb670f
+    }
+
+    75% {
+        color: #f35
+    }
+
+    100% {
+        color: #914cbf
+    }
+}
+.reason {
+    margin: 50px;
+    padding: 10px;
+    -webkit-animation: tcolor 10s infinite;
+    animation: tcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    font-size: 27px;
+}
