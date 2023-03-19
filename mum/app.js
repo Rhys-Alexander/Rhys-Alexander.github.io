@@ -32,7 +32,7 @@ function getMemory() {
     "Going to see the Curious Incident of the Dog in the Night Time... a year early",
     "Rushing to get to school and then realising it was holidays",
     "When I got on my knees and begged you for that microscope",
-    "Getting thins slices of salami from the deli and a pastry from the bakery on our way around sainsburys",
+    "Getting thin slices of salami from the deli and a pastry from the bakery on our way around sainsburys",
     "Dunelm... need I say more?",
     "Going on our trips to Camden, going to the market, and then the Blues Kitchen",
     "Sleepy by for Rhyso",
